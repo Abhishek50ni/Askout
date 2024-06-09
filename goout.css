@@ -37,12 +37,12 @@ h1{
 }
 #yes{
     position: absolute;
-    left: 240px;
+    left: 45%vw;
 }
 #no{
     padding-left: 20px;
     padding-right: 20px;
-    left: 340px;
+    left: 50%vw;
 }
 #btn{
     display: flex;
