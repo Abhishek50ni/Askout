@@ -33,16 +33,12 @@ h1{
     border: 1px solid #cb3e3e;
     box-shadow: 1px 1px 1px 1px;
     cursor: pointer;
-    position: absolute;
-}
-#yes{
-    position: absolute;
-    left: 45%vw;
+    /* position: absolute; */
 }
 #no{
     padding-left: 20px;
     padding-right: 20px;
-    left: 50%vw;
+
 }
 #btn{
     display: flex;

@@ -7,11 +7,13 @@
 
 let yesbtn=document.querySelector("#yes");
 let unclickable=document.querySelector("#no");
-let h1=document.querySelector("h1")
-let img=document.querySelector("img")
+let h1=document.querySelector("h1");
+let img=document.querySelector("img");
+let btns=document.querySelector(".btn");
 
 const len=200;
 function moveButton() {
+unclickable.style.position="absolute"    
 console.log("mousehovered")
 const randomX= Math.floor(Math.random() * (innerWidth-len));
 const randomY= Math.floor(Math.random()*(innerHeight -len));
